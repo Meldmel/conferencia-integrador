@@ -1,0 +1,88 @@
+/* header */
+
+
+nav div .navbar-nav a {
+    color: rgb(152, 152, 152);
+}
+
+nav div .navbar-nav .active {
+    color: white !important
+}
+
+nav div .navbar-nav .disabled {
+    color: #29a445 !important;
+}
+
+
+/* main */
+
+
+.banner {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.filtro {
+    filter: brightness(40%);
+    -webkit-filter: brightness(40%)
+}
+
+.banner-contenido {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    bottom: 20%;
+    right: 10%;
+    color: white;
+    text-align: justify;
+    padding-right: 1em;
+    overflow: auto;
+    text-overflow: Ellipsis;
+}
+
+.banner-contenido h1{
+    text-align:right;
+ }
+
+ .parrafo-oradores{
+    text-transform: uppercase;
+ }
+
+
+
+ 
+ .card-p{
+   font-size: .8em;
+ }
+
+.align{
+   justify-content: right;
+}
+
+
+
+
+.hover-boton{
+    --bs-btn-bg:#29A744;
+    --bs-btn-hover-bg:#0bf43d;
+    --bs-btn-hover-color:black;
+}
+.hover-nav a{
+    color: #29A744;
+}
+.hover-nav a:hover{
+    color:#0bf43d;
+}
+
+
+
+
+
+.bg-footer{
+   background-color: #1d506d;
+}
+.bg-enviar{
+   --bs-btn-bg:#96C93E;
+   --bs-btn-hover-bg:#0bf43d;
+}
